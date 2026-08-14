@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Mahima Pratap Saroj portfolio preview">
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#07111f"/>
+      <stop offset="100%" stop-color="#102238"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#68d5ff"/>
+      <stop offset="100%" stop-color="#2bbaf6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="180" cy="112" r="180" fill="url(#accent)" opacity="0.12"/>
+  <circle cx="1020" cy="520" r="200" fill="url(#accent)" opacity="0.1"/>
+  <rect x="156" y="116" width="888" height="398" rx="32" fill="#0d1b2a" stroke="rgba(104,213,255,0.35)"/>
+  <text x="196" y="230" fill="#68d5ff" font-family="Arial, Helvetica, sans-serif" font-size="26" letter-spacing="4">FULL STACK DEVELOPER</text>
+  <text x="196" y="318" fill="#edf6ff" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="700">Mahima Pratap Saroj</text>
+  <text x="196" y="374" fill="#b7c7d9" font-family="Arial, Helvetica, sans-serif" font-size="28">Building modern, responsive, and user-focused web experiences.</text>
+  <rect x="196" y="410" width="170" height="46" rx="23" fill="url(#accent)"/>
+  <text x="230" y="440" fill="#02131c" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">View Work</text>
+  <rect x="840" y="170" width="150" height="150" rx="30" fill="#102238" stroke="rgba(104,213,255,0.35)"/>
+  <path d="M844 248c0-58 42-104 94-104 52 0 94 46 94 104v19h-33v-19c0-34-24-61-61-61s-61 27-61 61v19h-33v-19z" fill="#68d5ff" opacity="0.9"/>
+  <circle cx="915" cy="184" r="34" fill="#edf6ff" opacity="0.9"/>
+</svg>

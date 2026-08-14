@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="MPS favicon">
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#68d5ff"/>
+      <stop offset="100%" stop-color="#1fa8e7"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#07111f"/>
+  <rect x="10" y="10" width="108" height="108" rx="22" fill="url(#bg)" opacity="0.18"/>
+  <path d="M38 92V36h16l20 20V92H62V60H54v32H38zm42 0V36h18v14h-8v42H80V36h18v14h-8v42H80z" fill="#edf6ff"/>
+  <circle cx="96" cy="36" r="7" fill="#68d5ff"/>
+</svg>

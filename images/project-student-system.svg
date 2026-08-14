@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Student Management System project preview">
+  <defs>
+    <linearGradient id="g2" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#68d5ff"/>
+      <stop offset="100%" stop-color="#2bbaf6"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="24" fill="#0b1728"/>
+  <rect x="50" y="56" width="700" height="388" rx="20" fill="#102238" stroke="#2b4766"/>
+  <rect x="76" y="86" width="220" height="300" rx="18" fill="#132d45"/>
+  <rect x="326" y="86" width="394" height="300" rx="18" fill="#132d45"/>
+  <rect x="100" y="116" width="170" height="20" rx="10" fill="#dfeaf6" opacity="0.85"/>
+  <rect x="100" y="156" width="150" height="16" rx="8" fill="#dfeaf6" opacity="0.6"/>
+  <rect x="100" y="190" width="150" height="16" rx="8" fill="#dfeaf6" opacity="0.45"/>
+  <rect x="100" y="224" width="150" height="16" rx="8" fill="#dfeaf6" opacity="0.4"/>
+  <rect x="348" y="112" width="120" height="20" rx="10" fill="#dfeaf6" opacity="0.9"/>
+  <rect x="348" y="150" width="184" height="16" rx="8" fill="#dfeaf6" opacity="0.5"/>
+  <rect x="348" y="186" width="250" height="16" rx="8" fill="#dfeaf6" opacity="0.45"/>
+  <rect x="348" y="222" width="272" height="16" rx="8" fill="#dfeaf6" opacity="0.35"/>
+  <rect x="348" y="258" width="200" height="16" rx="8" fill="#dfeaf6" opacity="0.3"/>
+  <rect x="620" y="112" width="72" height="170" rx="16" fill="url(#g2)"/>
+  <rect x="616" y="300" width="80" height="40" rx="12" fill="#3cc2ff"/>
+  <circle cx="140" cy="292" r="54" fill="url(#g2)" opacity="0.9"/>
+  <path d="M117 292l15 15 30-34" fill="none" stroke="#edf6ff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
