@@ -66,6 +66,29 @@ ul {
     margin-bottom: 12px;
 }
 
+.status-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 18px;
+    padding: 0.58rem 0.95rem;
+    border: 1px solid rgba(142, 240, 164, 0.28);
+    background: rgba(142, 240, 164, 0.07);
+    border-radius: 999px;
+    color: var(--success);
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+
+.status-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--success);
+    box-shadow: 0 0 18px rgba(142, 240, 164, 0.9);
+}
+
 .section-heading {
     margin-bottom: 36px;
 }
@@ -94,10 +117,22 @@ ul {
 }
 
 .brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
     font-size: 1.3rem;
     font-weight: 800;
     letter-spacing: 0.08em;
     color: var(--text);
+}
+
+.brand::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--primary), var(--primary-strong));
+    box-shadow: 0 0 18px rgba(104, 213, 255, 0.8);
 }
 
 .nav-links {
