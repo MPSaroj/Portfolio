@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Robotics System | Mahima Pratap Saroj</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #071b2e;
+            color: white;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .back {
+            display: inline-block;
+            color: #35d9ff;
+            text-decoration: none;
+            margin-bottom: 25px;
+        }
+
+        h1 {
+            font-size: 42px;
+            margin-bottom: 15px;
+        }
+
+        .intro {
+            color: #c9d8e5;
+            font-size: 18px;
+            line-height: 1.7;
+            margin-bottom: 35px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+            border-radius: 16px;
+            border: 1px solid #35d9ff;
+        }
+
+        .details {
+            margin-top: 40px;
+            background: #0d2942;
+            padding: 25px;
+            border-radius: 16px;
+        }
+
+        .details h2 {
+            margin-bottom: 15px;
+            color: #35d9ff;
+        }
+
+        .details p,
+        .details li {
+            color: #d5e2ec;
+            line-height: 1.7;
+        }
+
+        .details ul {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+
+        @media (max-width: 700px) {
+            h1 {
+                font-size: 32px;
+            }
+
+            .gallery {
+                grid-template-columns: 1fr;
+            }
+
+            .gallery img {
+                height: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <a href="index.html" class="back">← Back to Portfolio</a>
+
+        <h1>Smart Robotics System</h1>
+
+        <p class="intro">
+            An intelligent robotics prototype designed for electronic assembly support,
+            combining automation, sensor-based control, and robotic movement using Arduino Uno.
+        </p>
+
+        <div class="gallery">
+
+            <img src="images/robotic-arm-1.jpg.jpeg" alt="Smart Robotics System">
+            <img src="images/robotic-arm-2.jpg.jpeg" alt="Arduino Robotic Arm">
+            <img src="images/robotic-arm-3.jpg.jpeg" alt="Robotic Arm Hardware">
+            <img src="images/robotic-arm-4.jpg.jpeg" alt="Arduino Robotic Arm Project">
+
+        </div>
+
+        <div class="details">
+
+            <h2>Project Highlights</h2>
+
+            <ul>
+                <li>4-DOF robotic motion system</li>
+                <li>Sensor-driven automation logic</li>
+                <li>Arduino Uno based control</li>
+                <li>Servo motor based robotic movement</li>
+                <li>Designed for electronic assembly support</li>
+            </ul>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

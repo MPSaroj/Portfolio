@@ -227,9 +227,10 @@ ul {
 }
 
 .social-row {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3,1 fr);
     gap: 18px;
-    flex-wrap: wrap;
+    width: 100%;
 }
 
 .badge-row {
@@ -650,4 +651,112 @@ ul {
         display: grid;
         grid-template-columns: 1fr;
     }
+}
+.project-preview {
+    width: 100%;
+    height: 190px;
+    overflow: hidden;
+    border-radius: 16px;
+    margin-bottom: 20px;
+    background: #111a24;
+}
+
+.project-preview img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.project-card:hover .project-preview img {
+    transform: scale(1.05);
+}
+/* Certificate logo styling */
+.certificate-logo {
+  width: 58px;
+  height: 58px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 14px;
+  border-radius: 50%;
+}
+.grastech-logo {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    display: block;
+    margin: 0;
+    background-color: #fff !important;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: none;
+}
+.certificate-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 14px;
+}
+.certificate-header .certificate-logo {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    margin: 0;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.certificate-header h3 {
+    margin: 0;
+} 
+.certificate-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 14px;
+}
+
+.certificate-header .certificate-logo {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    margin: 0;
+    flex-shrink: 0;
+}
+
+.certificate-header h3 {
+    margin: 0;
+}
+/* Contact cards side-by-side */
+.social-row {
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 16px !important;
+  width: 100% !important;
+  flex-wrap: nowrap !important;
+}
+
+.social-row a {
+  display: block !important;
+  flex: 1 !important;
+  width: auto !important;
+  min-width: 0 !important;
+}
+.social-row {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    gap: 16px !important;
+    width: 100% !important;
+}
+
+.social-row a {
+    flex: 1 !important;
+    width: auto !important;
+    min-width: 0 !important;
 }
